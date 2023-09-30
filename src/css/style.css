@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: black;
+    width: 100%;
+    padding-left: 4%;
+    font-size: 400%;
+}
+
+header img{
+        width: 50px;
+        height: 50px;
+}
+
+header p{
+    color: white;
+    padding-left: 2%;
+}
+
+main{
+    background-color: black;
+    padding: 2%;
+    width: 100%;
+}
+
+main .listagem-pokemon{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+
+
+li.cartao-pokemon{
+    display: flex;
+    box-sizing: content-box;
+    width: 13%;
+    background-color: rgb(172, 171, 171);
+    padding: 2%;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    border-radius: 15px;
+    border: 3px solid white;
+}
+
+li.cartao-pokemon p{
+    color: aliceblue;
+}
+
+div.informacoes{
+    border: white 2px solid;
+    padding: 3%;
+    border-radius: 10px;
+}
+
+div.informacoes a{
+    color:white;
+    text-decoration: none;
+
+}
+
+div.informacoes a:hover{
+    color:blue;
+}
+
+ul.tipos{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: baseline;
+    color: aliceblue;
+}
+
+li.tipo_grama{
+    background-color: rgb(96, 197, 83);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+li.tipo_veneno{
+    background-color: purple;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+li.tipo_fogo{
+    background-color: orangered;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+li.tipo_agua{
+    background-color: lightblue;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+li.tipo_inseto{
+    background-color: greenyellow;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.descricao{
+    overflow-y: scroll;
+    height: 100px;
+    padding-right: 10px;
+}
+
+.descricao::-webkit-scrollbar{
+    width: 10px;
+}
+
+.descricao::-webkit-scrollbar-track{
+    background-color: white;
+    border-radius: 10px;
+    padding: 2px;
+}
+
+.descricao::-webkit-scrollbar-thumb {
+    background: #000000;
+    border-radius: 10px;
+    border: white solid 2px;
+    width: 50px;
+}
