@@ -27,15 +27,7 @@
         border: 3px solid white;
     }
 
-    header{
-    display: flex;
 
-    padding: 20px;
-    background-color: black;
-    width: 100%;
-    padding-left: 4%;
-    font-size: 100%;
-}
 
 
 }
@@ -71,15 +63,7 @@
         border: 3px solid white;
     }
 
-    header{
-    display: flex;
 
-    padding: 20px;
-    background-color: black;
-    width: 100%;
-    padding-left: 4%;
-    font-size: 100%;
-}
 
 
 }
@@ -104,6 +88,7 @@
     
 
 
+
 }
 @media (min-width: 1101px) and (max-width: 1300px) {
 
@@ -121,7 +106,6 @@
         border: 3px solid white;
     }
     
-
 
 }
 
