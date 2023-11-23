@@ -24,9 +24,15 @@
             <img src="src/imagem/pokeball.png" alt="pokebola" class="logo">
         </a>
         <h1>Pokédex<h1>
+
+        <div class="search-bar">
+            <input type="text" id="pokemonSearch" placeholder="Pesquisar Pokémon">
+            <button type="button" onclick="searchPokemon()">Pesquisar</button>
+        </div>
+
     </header>
 
-    <main>
+    <main id="pokemonList">
 
         <ul class="listagem-pokemon">
            <li class="cartao-pokemon">
@@ -173,5 +179,6 @@
     </main>
 </body>
 
+<script src="script.js"></script>
 
 </html>
