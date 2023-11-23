@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista Pokémon</title>
+    <link rel="shortcut icon" href="src/imagem/pokeball.png" type="image/x-icon">
+    
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/celular.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <a href="#">
+            <img src="src/imagem/pokeball.png" alt="pokebola" class="logo">
+        </a>
+        <h1>Pokédex<h1>
+
+        <div class="search-bar">
+            <input type="text" id="pokemonSearch" placeholder="Pesquisar Pokémon">
+            <button type="button" onclick="searchPokemon()">Pesquisar</button>
+        </div>
+
+    </header>
+
+    <main id="pokemonList">
+
+        <ul class="listagem-pokemon">
+           <li class="cartao-pokemon">
+                <div class="informacoes">
+                    
+                    <a href="https://pokemon.fandom.com/pt-br/wiki/Bulbassauro" target="_blank">Bulbassaur #001</a>
+                </div>
+                <img src="src/imagem/bulbasaur.gif" alt="Bulbassaur" class="gif" width="100px" height="100px">
+
+                <ul class="tipos">
+                    <li class="tipo_grama">Grama</li>
+                    <li class="tipo_veneno">Veneno</li>
+                </ul>
+                <p class="descricao">Bulbassauro ou Bulbasaur é um Pokémon dos tipos Grama e Venenoso introduzido na Primeira Geração.É um dos Pokémon iniciais da região de Kanto.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+
+                    <a href="https://pokemon.fandom.com/pt-br/wiki/Ivyssauro" target="_blank">Ivysaur #002</a>
+
+                </div>
+                <img src="src/imagem/ivysaur.gif" alt="Ivysaur" class="gif" width="100px" height="100px">
+
+                <ul class="tipos">
+                    <li class="tipo_grama">Grama</li>
+                    <li class="tipo_veneno">Veneno</li>
+                </ul>
+                <p class="descricao">Ivyssauro ou Ivysaur é um Pokémon dos tipos Grama e Venenoso introduzido na Primeira Geração. É a forma evoluída de Bulbassauro.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+
+                    <a href="https://pokemon.fandom.com/pt-br/wiki/Venussauro" target="_blank">Venosaur #003</a>
+
+                </div>
+                <img src="src/imagem/venusaur.gif" alt="Venosaur" class="gif" width="100px" height="100px">
+
+                <ul class="tipos">
+                    <li class="tipo_grama">Grama</li>
+                    <li class="tipo_veneno">Veneno</li>
+                </ul>
+                <p class="descricao">Venussauro ou Venusaur é um Pokémon dos tipos Grama e Venenoso introduzido na Primeira Geração. É a evolução de Ivyssauro e a evolução final de Bulbassauro.</p>
+            </li>
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+
+                    <a href="https://pokemon.fandom.com/pt-br/wiki/Charmander" target="_blank">Charmander #004</a>
+
+                </div>
+                <img src="src/imagem/charmander.gif" alt="Charmander" class="gif" width="100px" height="100px">
+
+                <ul class="tipos">
+                    <li class="tipo_fogo">Fogo</li>
+                </ul>
+                <p class="descricao">Charmander é um Pokémon do tipo Fogo introduzido na Primeira Geração. É um dos Pokémon iniciais da região de Kanto.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+
+                    <a href="https://pokemon.fandom.com/pt-br/wiki/Charmeleon" target="_blank">Charmeleon #005</a>
+
+                </div>
+                <img src="src/imagem/charmeleon.gif" alt="Charmeleon" class="gif" width="100px" height="100px">
+
+                <ul class="tipos">
+                    <li class="tipo_fogo">Fogo</li>
+                </ul>
+                <p class="descricao">Charmeleon é um Pokémon do tipo Fogo, categorizado como Pokémon Chamas e introduzido na Primeira Geração. É a forma evoluída de Charmander.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+
+                    <a href="https://pokemon.fandom.com/pt-br/wiki/Charizard" target="_blank">Charizard #006</a>
+
+                </div>
+                <img src="src/imagem/charizard.gif" alt="Charizard" class="gif" width="100px" height="100px">
+
+                <ul class="tipos">
+                    <li class="tipo_fogo">Fogo</li>
+                </ul>
+                <p class="descricao">Charizard é um Pokémon dos tipos Fogo e Voador introduzido na Primeira Geração. É a evolução de Charmeleon e a evolução final de Charmander.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+
+                    <a href="https://pokemon.fandom.com/pt-br/wiki/Squirtle" target="_blank">Squirtle #007</a>
+
+                </div>
+                <img src="src/imagem/squirtle.gif" alt="Squirtle" class="gif" width="100px" height="100px">
+
+                <ul class="tipos">
+                    <li class="tipo_agua">Água</li>
+                </ul>
+                <p class="descricao">Squirtle é um Pokémon do tipo Água introduzido na Primeira Geração. É um dos Pokémon iniciais da região de Kanto.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+
+                    <a href="https://pokemon.fandom.com/pt-br/wiki/Wartortle" target="_blank">Wartortle #008</a>
+
+                </div>
+                <img src="src/imagem/wartortle.gif" alt="Wartortle" class="gif" width="100px" height="100px">
+
+                <ul class="tipos">
+                    <li class="tipo_agua">Água</li>
+                </ul>
+                <p class="descricao">Wartortle é um Pokémon do tipo Água, categorizado como Pokémon Tartaruga e introduzido na Primeira Geração. É a forma evoluída de Squirtle.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+
+                    <a href="https://pokemon.fandom.com/pt-br/wiki/Blastoise" target="_blank">Blastoise #009</a>
+
+                </div>
+                <img src="src/imagem/blastoise.gif" alt="Blastoise" class="gif" width="100px" height="100px">
+
+                <ul class="tipos">
+                    <li class="tipo_agua">Água</li>
+                </ul>
+                <p class="descricao">Blastoise é um Pokémon do tipo Água, categorizado como Pokémon Marisco e introduzido na Primeira Geração. É a forma evoluída de Squirtle e a forma final de Wartortle.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+
+                    <a href="https://pokemon.fandom.com/pt-br/wiki/Caterpie" target="_blank">Caterpie #010</a>
+
+                </div>
+                <img src="src/imagem/caterpie.gif" alt="Wartortle" class="gif" width="100px" height="100px">
+
+                <ul class="tipos">
+                    <li class="tipo_inseto">Inseto</li>
+                </ul>
+                <p class="descricao">Caterpie é um Pokémon do tipo Inseto, categorizado como Pokémon Minhoca e introduzido na Primeira Geração.</p>
+            </li>
+        </ul>
+    </main>
+</body>
+
+<script src="script.js"></script>
+
+</html>
